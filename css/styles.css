@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+body{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.container-fluid{ 
+    text-align: center;
+}
+#curtain{
+    background-image: url('../images/h_img.jpg');
+    background-size: cover;
+    
+    position: relative;
+    height: 80vh;
+}
+#vision{
+    background-image: url('../images/s_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 50vh;
+}
+container{
+    text-align: center;
+}
+.fcb{
+    text-align: center;
+}
+ .hero{
+     text-align: center;
+ }
+
+
+.heroine{
+    padding-top: 5%;
+    text-align: center;
+}
+.container-flex{
+    padding: 5%;
+}
+.switch{
+    text-align: center;
+    padding: 5%;
+}
+textarea{
+    height: 100px;
+    width: 60%;
+    align-items: center;
+    margin-top: 20px;
+    background: transparent;
+}
+input{
+    background: transparent;
+}
+.container-buz{
+    margin-left: 100px;
+}
+
+#box{
+    background-image: url('../images/c_image.jpg');
+    background-repeat:no-repeat ;
+    position: relative;
+    background-size: cover;
+    margin-top: 40px;
+
+}
+.tron{
+    padding: 5%;
+
+}
+.container-flex{
+    align-items: center;
+}
+.form-control{
+    background: transparent;
+}
+.container-frame{
+    padding: 5%;
+    
+}
+.cap{
+    text-align: center;
+}
+.col-md-4{
+    margin-top:20px ;
+  }
+  .design,.development,.management{
+    display: none;
+  }
+  .contact{
+    background-image: url('https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/car_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .contact h3{
+    text-align: center;
+    padding-top: 40px;
+  }
+  .contact .detail{
+   margin-top: 10px;
+    
+  }
+  #name{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 30%;
+  }
+  #email{
+    width: 30%;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 30px;
+  }
+  #message{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 210px;
+    width: 70%;
+    margin-top: 20px;
+  }
+  #btn{
+    background-color:white;
+    border: 1px solid white;
+    width: 90px;
+    margin: 15px;
+    text-align: center;
+  }
+  .detail::-webkit-input-placeholder { 
+    color: white; 
+  }
+  #btn::-webkit-input-placeholder{
+    color: black;
+  }
