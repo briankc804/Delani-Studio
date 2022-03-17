@@ -61,14 +61,6 @@ input{
     margin-left: 100px;
 }
 
-#box{
-    background-image: url('../images/c_image.jpg');
-    background-repeat:no-repeat ;
-    position: relative;
-    background-size: cover;
-    margin-top: 40px;
-
-}
 .tron{
     padding: 5%;
 
@@ -93,7 +85,7 @@ input{
     display: none;
   }
   .contact{
-    background-image: url('https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/car_image.jpg');
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -144,4 +136,15 @@ input{
   }
   #btn::-webkit-input-placeholder{
     color: black;
+  }
+  #mc_embed_signup{
+    background-image: url('../images/c_image.jpg');
+    background-repeat:no-repeat ;
+    position: relative;
+    background-size: cover;
+    margin-top: 40px;
+  }
+  #mouse{
+    position: absolute;
+    padding-top: 20%;
   }
